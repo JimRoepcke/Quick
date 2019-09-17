@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "Quick", targets: ["Quick"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Quick/Nimble.git", .branch("update-cwlpreconditiontesting")),
+        .package(url: "https://github.com/Quick/Nimble.git", .branch("master")),
     ],
     targets: {
         var targets: [Target] = [
